@@ -31,8 +31,8 @@ echo '  command: '/app/htdocs/tj'' >>manifest.yml
 echo '  name: '$appname''>>manifest.yml
 echo '  random-route: true'>>manifest.yml
 echo '  memory: '$ramsize'M'>>manifest.yml
-target --cf
-cf push
+ibmcloud target --cf
+ibmcloud cf push
 cd ..
 echo 容器已经成功启动
 
