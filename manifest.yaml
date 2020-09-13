@@ -1,7 +1,0 @@
-applications:
-- name: mlj
-  memory: 64M
-  disk_quota: 1G
-  path: .
-  buildpacks:
-    - https://github.com/cloudfoundry/nginx-buildpack.git
