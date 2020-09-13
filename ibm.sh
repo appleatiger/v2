@@ -35,7 +35,3 @@ ibmcloud target --cf
 ibmcloud cf push
 cd ..
 echo 容器已经成功启动
-echo 地址: $domain
-echo UUID: $uuid
-echo path: /$path
-echo vmess://$vmess
