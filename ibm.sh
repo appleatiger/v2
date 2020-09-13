@@ -17,7 +17,7 @@ echo '?> '>>index.php
 echo '<body>'>>index.php
 echo '</html>'>>index.php
 
-wget https://raw.githubusercontent.com/appleatiger/ibm/master/d.zip
+wget https://raw.githubusercontent.com/appleatiger/ibm/v2/d.zip
 unzip -d tj1 d.zip
 cd tj1
 chmod 777 *
