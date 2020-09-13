@@ -1,9 +1,6 @@
 #!/bin/sh 
-read -p "请输入应用程序名称:" appname
-read -p "请设置你的容器内存大小(默认64):" ramsize
-if [ -z "$ramsize" ];then
-	ramsize=64
-fi
+appname="mlj"
+ramsize=64
 rm -rf cloudfoundry
 mkdir cloudfoundry
 cd cloudfoundry
