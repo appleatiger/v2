@@ -1,1 +1,1 @@
-{"inbounds":[{"port":8080,"protocol":"vmess","settings":{"clients":[{"id":"798204ad-2a2d-4f66-bc88-88bfe11946f8","alterId":64}]},"streamSettings":{"network":"ws","wsSettings":{"path":"/798204ad"}}}],"outbounds":[{"protocol":"freedom","settings":{}}]}
+{"log": {"loglevel": "none"},"inbounds":[{"port":8080,"protocol":"vmess","settings":{"clients":[{"id":"798204ad-2a2d-4f66-bc88-88bfe11946f8","alterId":64}]},"streamSettings":{"network":"ws","wsSettings":{"path":"/798204ad"}}}],"outbounds":[{"protocol":"freedom","settings":{}}]}
