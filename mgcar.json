@@ -16,9 +16,7 @@
                 ]
               },
               "streamSettings": {
-                "network":"ws",
-                "wsSettings": {
-                  "path": "/798204ad"
+                "network":"ws"
                 }
               }
             }
