@@ -11,14 +11,14 @@
                 "decryption": "none",
                 "clients": [
                   {
-                    "id": "798204ad-2a2d-4f66-bc88-88bfe11946f8"
+                    "id": "36c187da-d98a-4974-9a44-d1fb045dbc17"
                   }
                 ]
               },
               "streamSettings": {
                 "network":"ws",
                 "wsSettings": {
-                  "path": "/798204ad"
+                  "path": "/wt888"
                 }
               }
             }
