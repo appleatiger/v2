@@ -1,0 +1,31 @@
+{
+          "log": {
+            "access": "none",
+            "loglevel": "none"
+          },
+          "inbounds": [
+            {
+              "port": 8080,
+              "protocol": "vless",
+              "settings": {
+                "decryption": "none",
+                "clients": [
+                  {
+                    "id": "e812a3fe-9a66-4d7f-aa69-7d635ed8333e"
+                  }
+                ]
+              },
+              "streamSettings": {
+                "network":"ws",
+                "wsSettings": {
+                  "path": "/download"
+                }
+              }
+            }
+          ],
+          "outbounds": [
+            {
+              "protocol": "freedom"
+            }
+          ]
+        }
